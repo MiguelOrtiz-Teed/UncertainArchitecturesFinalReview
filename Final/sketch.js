@@ -76,6 +76,7 @@ function draw() {
     line(5,0,5,width)
     line((2/3)*width,0,(2/3)*width,width)
     line(0,6,width,6)
+    video.hide();
     pop();
   }
   if (on == 1){
